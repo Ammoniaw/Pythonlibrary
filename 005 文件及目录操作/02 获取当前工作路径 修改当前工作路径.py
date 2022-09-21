@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2022/9/15 18:25
 # @Author : AmmoniaW
-# @File : 02 获取当前工作路径 修改当前工作路径.py
+# @File : 02 keys()-传回widget的所有参数 获取当前工作路径 修改当前工作路径.py
 import os
 
 # 1. 获取当前的工作目录

@@ -37,4 +37,4 @@ print(now)  # Tue Aug 30 22:56:33 2022
 
 # 不提供任何参数给asctime()
 now_time = time.asctime()
-print(now_time)  # Tue Aug 30 23:02:28 2022
+print(now_time)  # Tue Aug 30 23:02 keys()-传回widget的所有参数:28 2022

@@ -28,11 +28,11 @@ mktime(tuple) -> floating point numbe  -  将时间元组-》为时间戳
 now_seconds = time.mktime(struct_time1)
 print(now_seconds)  # 1661869853.0
 
-# 编程实现01：将"09-02-2018 02:06:00" 转换为 "2018-09-02 02:06:00"
-old_time_str = "09-02-2018 02:06:00"
+# 编程实现01：将"09-02 keys()-传回widget的所有参数-2018 02 keys()-传回widget的所有参数:06:00" 转换为 "2018-09-02 keys()-传回widget的所有参数 02 keys()-传回widget的所有参数:06:00"
+old_time_str = "09-02 keys()-传回widget的所有参数-2018 02 keys()-传回widget的所有参数:06:00"
 # 首先转化为时间元组
 old_struct_time = time.strptime(old_time_str, "%m-%d-%Y %H:%M:%S")
 print(old_struct_time)
 # 时间元组转化为时间格式字符串
 new_time_str = time.strftime("%Y-%m-%d %H:%M:%S", old_struct_time)
-print(new_time_str)  # 2018-09-02 02:06:00
+print(new_time_str)  # 2018-09-02 keys()-传回widget的所有参数 02 keys()-传回widget的所有参数:06:00

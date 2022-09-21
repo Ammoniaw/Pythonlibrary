@@ -12,7 +12,7 @@ root = Tk()
 root.title("Say Hello")
 
 # LabelWidget输出文本
-label = Label(root, text="Hello World!",
+label = Label(root, text="\n\nHello World!\n\n",
               fg="blue", bg="yellow")
 label.pack()  # 包装和定位组件
 print(type(label))  # <class 'tkinter.Label'>

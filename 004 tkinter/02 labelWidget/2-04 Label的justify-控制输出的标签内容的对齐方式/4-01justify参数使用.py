@@ -17,7 +17,7 @@ root.title("Say Hello")
 label = Label(root, text="abcdefghijklmnopqrsyuvwxyz",
               fg="blue", bg="yellow",
               wraplength='40',  # 达到40像素自动换行 不指定justify参数时，默认最后一行居中对齐进行输出
-              justify="left")  # 左对齐输出最后一行
+              justify="right")  # 左对齐输出最后一行
 label.pack()
 print(type(label))
 

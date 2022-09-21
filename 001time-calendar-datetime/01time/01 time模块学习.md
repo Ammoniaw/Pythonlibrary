@@ -139,7 +139,7 @@ print(now)  # Tue Aug 30 22:56:33 2022
 
 # 不提供任何参数给asctime()
 now_time = time.asctime()
-print(now_time)  # Tue Aug 30 23:02:28 2022
+print(now_time)  # Tue Aug 30 23:02 keys()-传回widget的所有参数:28 2022
 ```
 
 ## 5. 时间元组<->格式化时间转换
@@ -213,13 +213,13 @@ time.struct_time(tm_year=2022, tm_mon=8, tm_mday=30, tm_hour=22, tm_min=30, tm_s
 ### 5.3 编程实现-==将"09-02-2018 02:06:00" 转换为 "2018-09-02 02:06:00"==
 
 ```python
-old_time_str = "09-02-2018 02:06:00"
+old_time_str = "09-02 keys()-传回widget的所有参数-2018 02 keys()-传回widget的所有参数:06:00"
 # 首先转化为时间元组
 old_struct_time = time.strptime(old_time_str, "%m-%d-%Y %H:%M:%S")
 print(old_struct_time)
 # 时间元组转化为时间格式字符串
 new_time_str = time.strftime("%Y-%m-%d %H:%M:%S", old_struct_time)
-print(new_time_str)  # 2018-09-02 02:06:00
+print(new_time_str)  # 2018-09-02 keys()-传回widget的所有参数 02 keys()-传回widget的所有参数:06:00
 
 
 ```

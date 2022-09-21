@@ -12,7 +12,7 @@ label = Label(root, text="Hello World!",
               fg="blue", bg="yellow",
               height=3, width=15,
               anchor="sw",
-              wraplength=40)  # 标签中的文字达到40像素宽度后自动换行
+              wraplength=40)  # 标签中的文字达到40“像素”宽度后自动换行，请注意是像素宽度
 label.pack()
 print(type(label))
 

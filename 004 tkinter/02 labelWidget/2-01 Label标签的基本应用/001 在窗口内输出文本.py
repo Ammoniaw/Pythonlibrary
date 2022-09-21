@@ -18,7 +18,7 @@ root.geometry(f"{width}x{height}+{x}+{y}")
 root.configure(bg="green")
 
 # LabelWidget输出文本
-label = Label(root, text="I like Tkinter!")
+label = Label(root, text="\n\n I like Tkinter!\n\n")
 label.pack()  # 包装和定位组件
 print(type(label))  # <class 'tkinter.Label'>
 

@@ -7,7 +7,7 @@ import datetime
 # 计算指定时间增量（间隔）后的时间
 feature_time = datetime.datetime.today() + datetime.timedelta(days=2)
 print(type(feature_time))
-print(feature_time)  # 2022-09-02 09:54:48.409620
+print(feature_time)  # 2022-09-02 keys()-传回widget的所有参数 09:54:48.409620
 
 # datetime.timedelta() 使用
 """
